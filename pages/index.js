@@ -3,7 +3,9 @@ function Home() {
         <div>
             <h1>Welcome to the Tab News (Clone)</h1>
             <p>Why did the chicken cross the road?</p>
-            <p>To show the skunk it could be done!</p>
+            <p>
+                <marquee>To show the skunk it could be done!</marquee>
+            </p>
         </div>
     );
 }
