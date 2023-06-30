@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 function Home() {
     return (
         <div>
@@ -6,7 +8,8 @@ function Home() {
             <p>
                 <marquee>To show the skunk it could be done!</marquee>
             </p>
-        </div>
+            <Analytics />
+        </div>        
     );
 }
 
