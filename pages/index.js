@@ -9,7 +9,7 @@ function Home() {
                 <marquee>To show the skunk it could be done!</marquee>
             </p>
             <Analytics />
-        </div>        
+        </div>
     );
 }
 
